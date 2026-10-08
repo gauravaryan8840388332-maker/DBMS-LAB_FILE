@@ -64,7 +64,7 @@ ORDER BY e.emp_id;
 
 ### 📌 Output
 
-![INNER JOIN Output](images/01_inner_join_output.png)
+![INNER JOIN Output](images-exp-4/01_inner_join_output.png)
 
 ---
 
@@ -90,7 +90,7 @@ ORDER BY d.dept_id, e.emp_id;
 
 ### 📌 Output
 
-![LEFT JOIN Output](images/02_left_join_output.png)
+![LEFT JOIN Output](images-exp-4/02_left_join_output.png)
 
 ---
 
@@ -121,7 +121,7 @@ LIMIT 10;
 
 ### 📌 Output
 
-![SELF JOIN Output](images/03_self_join_output.png)
+![SELF JOIN Output](images-exp-4/03_self_join_output.png)
 
 ---
 
@@ -149,7 +149,7 @@ ORDER BY d.dept_name, e.emp_name;
 
 ### 📌 Output
 
-![3-Way JOIN Output](images/04_3way_join_output.png)
+![3-Way JOIN Output](images-exp-4/04_3way_join_output.png)
 
 ---
 
@@ -180,7 +180,7 @@ ORDER BY e.dept_id, e.salary DESC;
 
 ### 📌 Output
 
-![Correlated Subquery Output](images/05_correlated_subquery_output.png)
+![Correlated Subquery Output](images-exp-4/05_correlated_subquery_output.png)
 
 ---
 
@@ -210,7 +210,7 @@ ORDER BY d.dept_id;
 
 ### 📌 Output
 
-![EXISTS Output](images/06_exists_output.png)
+![EXISTS Output](images-exp-4/06_exists_output.png)
 
 ---
 
@@ -242,7 +242,7 @@ ORDER BY emp_id;
 
 ### 📌 Output
 
-![Simulated INTERSECT Output](images/07_simulated_intersect_output.png)
+![Simulated INTERSECT Output](images-exp-4/07_simulated_intersect_output.png)
 
 ---
 
@@ -272,7 +272,7 @@ ORDER BY emp_id;
 
 ### 📌 Output
 
-![Simulated EXCEPT Output](images/08_simulated_except_output.png)
+![Simulated EXCEPT Output](images-exp-4/08_simulated_except_output.png)
 
 ---
 
@@ -295,7 +295,7 @@ WHERE e.salary > 70000;
 
 ### 📌 Output
 
-![EXPLAIN INNER JOIN Output](images/09_explain_inner_join_output.png)
+![EXPLAIN INNER JOIN Output](images-exp-4/09_explain_inner_join_output.png)
 
 ---
 
@@ -316,7 +316,7 @@ WHERE e.salary > (
 
 ### 📌 Output
 
-![EXPLAIN Correlated Subquery Output](images/10_explain_correlated_subquery_output.png)
+![EXPLAIN Correlated Subquery Output](images-exp-4/10_explain_correlated_subquery_output.png)
 
 ---
 
@@ -336,7 +336,7 @@ WHERE EXISTS (
 
 ### 📌 Output
 
-![EXPLAIN EXISTS Output](images/11_explain_exists_output.png)
+![EXPLAIN EXISTS Output](images-exp-4/11_explain_exists_output.png)
 
 ---
 
@@ -392,7 +392,7 @@ Store the screenshots inside the `images` folder using these exact names:
 ```text
 DBMS-LAB_FILE/
 │
-├── images/
+├── images-exp-4/
 │   ├── 01_inner_join_output.png
 │   ├── 02_left_join_output.png
 │   ├── 03_self_join_output.png
