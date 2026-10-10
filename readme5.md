@@ -68,7 +68,7 @@ SELECT * FROM department_salary_summary;
 
 ### 📌 Output Screenshot
 
-![Department Salary Summary View Output](images/01_department_salary_summary_output.png)
+![Department Salary Summary View Output](images-exp-5/01_department_salary_summary_output.png)
 
 **Image file:** `01_department_salary_summary_output.png`
 
@@ -109,7 +109,7 @@ SELECT * FROM employee_hierarchy;
 
 ### 📌 Output Screenshot
 
-![Employee Hierarchy View Output](images/02_employee_hierarchy_output.png)
+![Employee Hierarchy View Output](images-exp-5/02_employee_hierarchy_output.png)
 
 **Image file:** `02_employee_hierarchy_output.png`
 
@@ -161,7 +161,7 @@ WHERE emp_id = 6;
 
 ### 📌 Output Screenshot
 
-![View Updatability Test Output](images/03_view_updatability_output.png)
+![View Updatability Test Output](images-exp-5/03_view_updatability_output.png)
 
 **Image file:** `03_view_updatability_output.png`
 
@@ -212,7 +212,7 @@ ORDER BY reporting_path;
 
 ### 📌 Output Screenshot
 
-![Recursive CTE Reporting Chain Output](images/04_recursive_cte_output.png)
+![Recursive CTE Reporting Chain Output](images-exp-5/04_recursive_cte_output.png)
 
 **Image file:** `04_recursive_cte_output.png`
 
